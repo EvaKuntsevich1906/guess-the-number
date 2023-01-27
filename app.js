@@ -1,7 +1,7 @@
 const randomValue = Math.floor(Math.random()*100); 
 
 function guessTheNumber (randomValue_) {
-    let clientValue = +prompt("Введите уелое число от 1 до 100"); 
+    let clientValue = +prompt("Введите целое число от 1 до 100"); 
 
     if (clientValue>randomValue_) {
         alert("Ваше число больше числа,которое загадал компьютер.  Введите число повторно")
